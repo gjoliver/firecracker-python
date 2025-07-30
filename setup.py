@@ -7,10 +7,10 @@ setup(
     author="Muhammad Yuga Nugraha",
     packages=find_packages(),
     install_requires=[
-        "requests==2.32.3",
-        "requests-unixsocket==0.4.1",
-        "tenacity==9.0.0",
-        "psutil==7.0.0",
+        "requests>=2.32.3",
+        "requests-unixsocket>=0.4.1",
+        "tenacity",
+        "psutil>=7.0.0",
         "pyroute2==0.8.1",
         "paramiko==3.5.1"
     ],
